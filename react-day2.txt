@@ -1,0 +1,70 @@
+Interaction of components-
+Parent Com -> child Com
+App.js -> DisplayEmp
+
+How to send to Data from Parent To child -> using Props
+
+App.js ->
+<DisplayEmp id="" name=""/>
+
+DisplayEmp -> SalaryEmp
+(Parent)      (Child)
+id             basicsal
+name            hra
+basicsal        sa
+hra
+sa
+
+============================================
+Fragment  ->
+
+<React.Fragment>
+	
+
+</React.Fragment>
+
+<>
+
+
+</>
+
+===========================================================
+Apply CSS -
+1. create .css file and import it in the components.
+
+import './TableFragment.css'
+<h2 className=" "></h2>
+
+We can use css file classes in all child components directly means no need to import css file in child classes.
+
+2. by styles variable within a particular class.
+
+const st={backgroundColor:'',......}
+
+<h2 style={st}>...</h2>
+
+
+3. Css module ->
+
+import styles from "./TableFragment.module.css"
+
+<h3 className={styles.success}>Success Class from css module</h3>
+
+We can not use css module directly in child components.if we want ot use we have to import the module css file in the component.
+
+4. use style as attribute
+ <h1 style={{color:'pink'}}>fhvfhgf</h1>
+ 
+ ================================================================
+ 
+ How to fetch Array or Object or Array of Object Data using react ->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

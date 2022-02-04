@@ -1,0 +1,44 @@
+When we uses state -> 
+1. state change -> render() will get called
+2. if we are increasing the value of textbox by button and if we ahve not specify the onChange event on textebox then my textbox is readonly
+
+
+Create ref to avoid above problems -
+1. create reference in constructor of the class
+2. bind your textbox with ref variable
+3. increase ref value on button click so use function increaseQty and increase the ref value.
+	To access the ref value we have to use current property of ref
+
+
+Autofocus to textbox
+
+Note -> ref can not be attach to a function component.
+
+To use ref in functional component, we have to use forwardRef()
+Hooks -> useRef
+
+=========================================
+routing ->Home About
+React Hooks -> useState 
+HTTP Request -> axios  (REST API)
+CRUD -> React Node Express MySQL
+CRUD ->MERN stack
+Intro React-Redux 
+Postman API???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

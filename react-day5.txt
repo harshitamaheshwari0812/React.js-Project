@@ -1,0 +1,91 @@
+REST API -> representational state transfer
+
+REST -> representational state transfer
+API -> Application Programming Interface
+
+
+What is API ? Why to use API??
+
+get 
+post
+=========================================
+install axios -
+npm i axios --save
+
+=================================================
+Routing -> 
+npm install react-router-dom --save
+
+react-bootstarp -> npm install react-bootstrap --save
+
+<BrowserRouter> -> used for handling dynamic routes
+
+=======================================================
+Hooks ->
+useState
+useContext
+useEffects
+
+Additional Hooks - useLocation, useRef ,useCallback, useReducer , useImperativeHandle, useLayoutEffect ,useDebugValue etc.
+We can create custom hooks as well.
+
+
+state ->
+	useState -> to use state in functional component
+	
+All these hooks are nothing but functions.
+
+
+useState is a function accept an argument which is initial value of state property and retruns current value of the state and method that is capable of updating the state value.
+
+const[count,setCount]=useState(0)
+
+useState with initial value
+useState with previous state
+useState with object
+useState with array
+
+
+===========================================
+useEffect -> componentDidMount() , componentDidUpdate()
+
+useEffect(()=>{}) -> useEffect holds a function which get render automatically after render of component.
+after first render and after every update
+
+==========================================
+useContext -> 
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

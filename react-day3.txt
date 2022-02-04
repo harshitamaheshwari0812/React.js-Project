@@ -1,0 +1,52 @@
+Conditional Rendering ->
+1. if else
+2. element variable
+3. Ternary operator =>  ?:
+4. short circuit operator ->   && 
+	if condition true then print something but if false print nothing
+
+======================
+Component Life Cycle methods -
+1. inital phase  ->
+			component contains default props and intial state.
+			constructor()
+			called only once
+			methods -> 1. getDefaultProps() -> used to specify default value to this.props
+						2. getInitialState ->  used to specify default value to this.state
+			These methods will get invoked before the creation of component.
+2. mounting phase
+3. updating phase
+4. unmounting phase
+5. error handling
+
+========================================
+How to change react port no->
+ "scripts": {
+    "start": "set PORT=4000 && react-scripts start",
+
+To get installed react version ->
+npm view react version
+
+================================================
+formik -> 
+
+npm install formik --save
+
+============================================
+Error Boundaries ->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

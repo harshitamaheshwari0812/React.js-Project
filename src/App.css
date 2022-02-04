@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.linkclass{
+  color:white;
+  text-decoration: none;
+}
+.linkclass:hover{
+  color:whitesmoke;
+  background-color: turquoise;
+} 
+

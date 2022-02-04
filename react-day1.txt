@@ -1,0 +1,72 @@
+SPA -> Single Page Application
+
+React react.js -> frontend /UI Javascript library
+
+Angular -> Javascript framework
+
+React ->
+UI Javascript library
+SPA
+JSX (javascript XML)-> it allows us to write HTML in React.
+
+Rule -
+1. we can render only one block from a component
+2. Component can be function or class
+	function Fun(){}
+	class Fun(){}
+3. component name should start with capital letter
+4. Compoent should be exportable so that in other component we can import and use it.
+5. Component extension .js or .jsx 
+	App.js or App.jsx
+6. {}
+
+==================================
+Component - > components are like functions that returns HTML element.
+Compoents are basic buliding block to perfrom a specific task.
+independent and reusable
+
+Two Types- 
+1. functional 
+2. Class -> 
+		class 
+		pure
+		memo
+		higer order etc.
+When we create class component -> React has a Component class so each class component has to inherit that React.Component class.
+		
+
+Snippets ->
+rfc or rfce-> functional component snippet
+rcc  -> class component snippet
+rconst -> for constructor
+======================================================================
+From Parent send data to child component and data is read only means the child component can not make any changes in the data.
+
+props -> 
+<DisplayEmployee id="101" name="smith" salary="400000"></DisplayEmployee>
+
+props are ready only.
+
+In functional component if we want to use props and make some changes in the data we have to use React Hooks concept.
+
+In class Component if we want to use props and make some changes -> use state
+class -> statefull component
+
+state ->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
